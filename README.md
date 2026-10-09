@@ -1,6 +1,6 @@
 # Learning_Python 🐍
 
-My personal Python learning journey — notes, exercises, and code from tutorials
+My personal Python learning journey — **Jupyter notebooks**, exercises, and code from tutorials
 and courses with open or unrestricted licenses.
 
 > This is the **public** companion to my private study repo. Everything here is
@@ -11,7 +11,7 @@ and courses with open or unrestricted licenses.
 
 | Path | Contents |
 | --- | --- |
-| `notes/` | My personal study notes, cheatsheets, and explanations in my own words. |
+| `Notes/` | My personal study notes, cheatsheets, and explanations in Jupyter notebook format. |
 | `tutorials/` | Code written while following YouTube tutorials and other open resources. |
 | `exercises/` | Practice problems and small projects I've built to reinforce concepts. |
 
