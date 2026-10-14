@@ -1,44 +1,65 @@
-# Learning_Python 🐍
+# My Path to Python 🐍
 
-My personal Python learning journey — **Jupyter notebooks**, exercises, and code from tutorials
-and courses with open or unrestricted licenses.
+Documenting my path into Python, one notebook at a time. Notes, exercises, and adapted tutorial code.
 
-> This is the **public** companion to my private study repo. Everything here is
-> free to view, use, and learn from. If you spot something wrong or have a
-> better way to do something, I'd love to hear it.
+> Public companion to my private study repo. Everything here is free to use — if you spot a mistake or a better approach, let me know.
 
 ## What's Inside
 
 | Path | Contents |
 | --- | --- |
-| `Notes/` | My personal study notes, cheatsheets, and explanations in Jupyter notebook format. |
-| `tutorials/` | Code written while following YouTube tutorials and other open resources. |
-| `exercises/` | Practice problems and small projects I've built to reinforce concepts. |
+| `Python_Knowledge/` | Study notes, cheatsheets, and explanations in Obsidian format. |
+| `Exercises/` | Practice problems and small projects built to reinforce concepts. |
+| `Tutorials/` | Code and notes written while following YouTube tutorials and other open resources. |
 
+## Current Folder Structure
 
-## Content Sources & Licensing
-
-Everything in this repo comes from sources that permit reuse and sharing:
-
-- **YouTube tutorials** — code re-typed and adapted by me, with credit to the creator.
-- **Open-source documentation and articles** — linked inline where used.
-- **My own original work** — notes, exercises, and projects.
-
-### License of *my* content
-
-All original material I wrote (notes, commentary, my own exercises) is released
-under the **MIT License** — use it freely, attribution appreciated but not required.
-
-Third-party code retains its original license, which is noted at the top of the
-relevant file or in the folder's README.
+```
+my_path_to_python/
+├── README.md
+├── Python_Knowledge/
+│   └── Notes.ipynb
+├── Exercises/
+└── Tutorials/
+    └── YouTube/
+        └── Corey Schafer/
+            ├── Python Tutorial for Beginners 1 - Install and Setup for Mac and Windows.md
+            └── Python Tutorial for Beginners.ipynb
+```
 
 ## How I Organize Things
 
-- Each tutorial or topic gets its own folder.
-- Source links live at the top of each file or in a `SOURCES.md`.
-- Commit messages describe what was learned, not just what changed.
+- **Tutorials** are grouped by source, then by creator/title:
+  - `YouTube/` — Channel Name
+  - `Websites/` — Site Name (not added yet)
+  - `Books/` — Book/Article Title (not added yet)
+  - `Other/` — Miscellaneous sources (not added yet)
+- **Notes** — stored in `Python_Knowledge/` (Obsidian Vault).
+- **Exercises** — grouped by source or concept, representing distinct mini-projects.
+- **Commits** — describe what was learned, not just what changed.
+
+## Content Sources & Licensing
+
+This repo mixes three kinds of material:
+
+- **YouTube tutorials** — examples reproduced or adapted for study, credited to the creator. Third-party code retains its original terms; I make no ownership claim on it.
+- **Documentation and articles** — referenced inline with links.
+- **My own work** — notes, commentary, exercises, and projects, released under the **MIT License**. Attribution appreciated, not required.
+
+## Status
+
+Migrating notes to Obsidian. Started with Corey Schafer's YouTube tutorial; exercises and basic structure are in place.
 
 ## Related
 
 🔒 I also keep a **private** repo (`Learning_Python-Private`) for licensed
 course materials that can't be shared publicly. That content stays there.
+
+## Credits
+
+- **README Structure & Documentation:** Assisted by Leo (Brave AI)
+- **Code & Notes:** Personal study and original work
+
+---
+
+*Built while learning. Expect messiness, broken code, and steady improvement.*
