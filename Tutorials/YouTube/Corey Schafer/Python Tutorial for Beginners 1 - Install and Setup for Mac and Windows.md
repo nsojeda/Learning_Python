@@ -11,7 +11,7 @@ Video Link: https://youtu.be/YYXdXT2l-Gg
 ---
 # Checking for Pythons
 ---
-	The first thing to do is check if Python is installed
+The first thing to do is check if Python is installed
 
 ## Mac and Linux
 
