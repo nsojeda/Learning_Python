@@ -1,6 +1,6 @@
 #  "by convention our variables are usually all lowercase"
 
-message = "Hello, World!"
+message = "Hello World"
 
 # "if it's multiple words then we separate those with underscore"
 my_message = "Hello, Nick!"
@@ -29,4 +29,14 @@ that aired from 1990 to 1998. """)
 print("""Bobby's World, \
 was a popular animated television show\
 that aired from 1990 to 1998. """)
+
+print(len(message))
+print(message[0])
+print(message[10])
+# print(message[11]) IndexError: string index out of range
+
+print(message[0:5])
+
+print(message[:5])
+print(message[6:])
 
