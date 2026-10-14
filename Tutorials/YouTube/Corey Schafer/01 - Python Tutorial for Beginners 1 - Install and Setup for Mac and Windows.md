@@ -65,6 +65,8 @@ python
 
 this will get you to get a Interactive Prompt.
 
+You can tell you're in the prompt by the >>>
+
 **Interactive Prompt** let you write 1 line of python at a time. (it's like run ad hoc commands )
 
 ```
@@ -81,9 +83,9 @@ print(x)
 10
 
 The Interactive Prompt is good for testing python command
+you can tell you're in the prompt  
 
-# Exit
----
+Exit
 to exit the Interactive Prompt enter
 
 ```
@@ -92,14 +94,26 @@ exit()
 
 # .py
 ---
-Python Files are what you want, a space where we can write multiple lines and run an entire script and save you word
+Python Files are what you want, a space where we can write multiple lines and run an entire script and save you work.
+
+" to create a python file we're going to need some kind of plain text editor"
 
 # print ()
 ---
 print () is function that can display a programs output on the screen.
 
 
-
-# note to self
+# # Comments
 ---
-look in to
+Comments are lines of code that python interrupter ignored
+
+"it's only there for the developer and the programmer to actually see what's going"  
+
+# Note to Self
+---
+edits to try
+VIM
+Emacs
+sublim text
+Atom
+py charm
