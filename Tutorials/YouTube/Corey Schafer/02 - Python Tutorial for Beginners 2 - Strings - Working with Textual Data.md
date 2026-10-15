@@ -9,5 +9,3 @@ Chanel: Corey Schafer
 Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
 Video Link: https://youtu.be/k9TUPpGqYTo
 ---
-
-test
