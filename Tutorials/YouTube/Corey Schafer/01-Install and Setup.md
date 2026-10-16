@@ -1,14 +1,16 @@
 ---
+Chanel: Corey Schafer
+Video Title: "Python Tutorial for Beginners 1: Install and Setup for Mac and Windows"
+Description: In this Python Beginner Tutorial, we will start with the basics of how to install and setup Python for Mac and Windows. We will also take a look at the interactive prompt, as well as creating and running our first script. Let's get started.
+Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
+Video Link: https://youtu.be/YYXdXT2l-Gg
+Related File: 01 - intro.py
+published:
 tags:
   - python
   - youtube
   - learning
   - notes
-Description: This note is on Corey Schafer's, YouTube course "Python Programming Beginner Tutorials"
-Chanel: Corey Schafer
-Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
-Video Link: https://youtu.be/YYXdXT2l-Gg
-Related File: 01 - intro.py
 ---
 # Checking for Pythons
 ---

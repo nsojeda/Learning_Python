@@ -1,0 +1,111 @@
+---
+Chanel: Corey Schafer
+Video Title: "Python Tutorial for Beginners 2: Strings - Working with Textual Data"
+Description: In this Python Beginner Tutorial, we will begin learning about the string data type. Strings allow us to work with textual data in Python. We will be going over different ways to format strings, and a
+Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
+Video Link: https://youtu.be/k9TUPpGqYTo
+Related File: 02 - Strings.py
+published:
+tags:
+  - python
+  - youtube
+  - learning
+  - notes
+  - variables
+  - Strings
+  - str
+  - Length
+  - len
+  - Indexing
+  - Slicing
+  - Concatenation
+  - String_Formatting
+  - F-strings
+  - Documentation
+---
+# Variable Naming Conventions
+---
+## Conventions
+
+- Variables are usually all lowercase 
+- If a Variables has multiple words then we separate those with underscore ( _ )
+- Variable names should be as descriptive as possible
+
+``` python
+message = "Hello World"
+my_message = "Hello, Nick!"
+
+pi=3.14
+
+print(message)
+print(my_message)
+print(pi)
+```
+## Bad Practices
+
+- Single Letter
+	  May be valid variable name, but if anyone reads the code now wouldn't know what value it's supposed to hold
+```python
+m = "Hello World"
+
+print(m)
+```
+# String Quotes and Escaping
+---
+## String Quotes
+Strings can made by using Single( ' ' ) or double( " " ) quotes.
+
+```python
+print('Hello World')
+print("Hello World")
+```
+
+You can alternate quotes depending on the text going in the string. 
+```python
+print('He said, "Hello World"')
+print("Bobby's World!")
+```
+
+Using the same quotes make will make the interrupter think the string is ends before it does. which will lead to a, SyntaxError: invalid syntax.
+```python
+print('Bobby's World!)
+
+```
+
+## Escaping
+You can use a backslash( \ ) escape or tell the interrupter to not to use that quote to close the string.
+
+```python
+print('Bobby\'s World!')
+print("He said, \"Hello World\"")
+```
+
+# Multi-line Strings
+---
+By using three quotes you can print on multi-line 
+You can use Single( ''' ) or double( """ ) quotes
+```python
+print("""
+1,
+2,
+3,
+""")
+```
+
+# String Length and Indexing
+---
+
+# Slicing Strings
+---
+
+# String Concatenation
+---
+
+# String Formatting
+---
+
+# Using F-strings
+---
+
+# Built-in Documentation
+---

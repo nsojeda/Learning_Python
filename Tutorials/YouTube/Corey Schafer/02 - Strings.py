@@ -1,4 +1,8 @@
-#  "by convention our variables are usually all lowercase"
+###
+# Variable Naming Conventions
+###
+ 
+# "by convention our variables are usually all lowercase"
 
 message = "Hello World"
 
@@ -11,10 +15,15 @@ print(message)
 
 print(my_message)
 
+###
+# String Quotes and Escaping
+###
+
 # print('Bobby's World!) SyntaxError: invalid syntax.
 print('Bobby\'s World!')
 
-print('Bobby\'s World!')
+# test  not in video but I wanted to see if I could do this and it worked.
+print("He said, \"Hello World\" ")
 
 print("Bobby's World!")
 
@@ -30,9 +39,25 @@ was a popular animated television show
 that aired from 1990 to 1998. """)
 
 # test  not in video but I wanted to see if I could do this and it worked.
+print("""
+1,
+2,
+3,
+""")
+
 print('''Bobby's World, \
 was a popular animated television show\
 that aired from 1990 to 1998. ''')
+
+print("""
+1,\
+2,\
+3,
+""")
+
+###
+#String Length and Indexing
+###
 
 print(len(message))
 print(message[0])
