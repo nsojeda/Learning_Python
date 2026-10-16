@@ -8,6 +8,7 @@ Description: This note is on Corey Schafer's, YouTube course "Python Programming
 Chanel: Corey Schafer
 Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
 Video Link: https://youtu.be/YYXdXT2l-Gg
+Related File: 01 - intro.py
 ---
 # Checking for Pythons
 ---
