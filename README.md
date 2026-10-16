@@ -20,11 +20,21 @@ my_path_to_python/
 ├── Python_Knowledge/
 │   └── Notes.ipynb
 ├── Exercises/
+    └── 50 days of code/ (Not Started)
+        └── README.md (W.I.P.)
 └── Tutorials/
+    └── PY4E/ (Not Started)
+        └── README.md (W.I.P.)
     └── YouTube/
         └── Corey Schafer/
-            ├── Python Tutorial for Beginners 1 - Install and Setup for Mac and Windows.md
+            ├── 01 - intro.py
+            ├── 01 - Python Tutorial for Beginners 1 - Install and Setup for Mac and Windows.md
+            ├── 02 - strings.py
+            ├── 02 - Python Tutorial for Beginners 2 - Strings - Working with Textual Data.
             └── Python Tutorial for Beginners.ipynb
+        └── Data with Baraa/
+	        ├── 03 - Python Comments - Visually Explained - Python Course 3.md (not Started)
+	        ├── 03 - Comments.py (Not Started)
 ```
 
 ## How I Organize Things
@@ -33,10 +43,9 @@ my_path_to_python/
   - `YouTube/` — Channel Name
   - `Websites/` — Site Name (not added yet)
   - `Books/` — Book/Article Title (not added yet)
-  - `Other/` — Miscellaneous sources (not added yet)
+  - `Other/` — PY4E - and Miscellaneous sources (not added yet)
 - **Notes** — stored in `Python_Knowledge/` (Obsidian Vault).
 - **Exercises** — grouped by source or concept, representing distinct mini-projects.
-- **Commits** — describe what was learned, not just what changed.
 
 ## Content Sources & Licensing
 
