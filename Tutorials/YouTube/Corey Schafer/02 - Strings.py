@@ -18,6 +18,10 @@ print('Bobby\'s World!')
 
 print("Bobby's World!")
 
+# #test  not in video but I wanted to see if I could do this and it worked.
+print("That's Nick's computer")
+print('Nick said, "Python is fun"')
+
 
 # we needed to create a multi-line string and one way we can do this is by using three quotes at the beginning and end of our string and These can also be Single(''') or double(""") quotes
 
