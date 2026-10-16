@@ -18,7 +18,7 @@ print('Bobby\'s World!')
 
 print("Bobby's World!")
 
-# #test  not in video but I wanted to see if I could do this and it worked.
+# test  not in video but I wanted to see if I could do this and it worked.
 print("That's Nick's computer")
 print('Nick said, "Python is fun"')
 
@@ -29,10 +29,10 @@ print("""Bobby's World
 was a popular animated television show 
 that aired from 1990 to 1998. """)
 
-#test  not in video but I wanted to see if I could do this and it worked.
-print("""Bobby's World, \
+# test  not in video but I wanted to see if I could do this and it worked.
+print('''Bobby's World, \
 was a popular animated television show\
-that aired from 1990 to 1998. """)
+that aired from 1990 to 1998. ''')
 
 print(len(message))
 print(message[0])
@@ -44,3 +44,48 @@ print(message[0:5])
 print(message[:5])
 print(message[6:])
 
+print(message.lower())
+print(message.upper())
+
+print(message.count('Hello'))
+print(message.count('l'))
+
+
+print(message)
+print(message.find('World'))
+
+print(message.find('Universe'))
+
+
+# test  not in video but I wanted to see if I could do this and it worked.
+new_message = message.replace('World', 'Universe')
+
+print(message.replace('World', 'Universe'))
+
+print(new_message)
+
+greeting = "Hello"
+name = "Michael"
+
+greeting_message = greeting + ", " + name
+print (greeting)
+print (name)
+print (greeting_message)
+print (greeting + ", " + name)
+print (greeting + ", " + name + ". Welcome!")
+
+format_greeting = "{}, {}. Welcome!".format(greeting, name)
+print(format_greeting)
+
+f_string_greeting = f"{greeting}, {name}. Welcome!"
+print(f_string_greeting)
+
+print(f"{greeting}, {name.upper()}. Welcome!")
+
+
+
+print(dir(name))
+
+print(help(str))
+
+print(help(str.lower))
