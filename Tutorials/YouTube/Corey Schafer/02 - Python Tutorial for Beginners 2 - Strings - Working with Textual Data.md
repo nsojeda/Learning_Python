@@ -20,19 +20,15 @@ Chanel: Corey Schafer
 Course Link: https://youtube.com/playlist?list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&si=NAqPVHNCkd3uHpKq
 Video Link: https://youtu.be/k9TUPpGqYTo
 ---
-# Intro
----
-
-
 # Variable Naming Conventions
 ---
-### Conventions
+## Conventions
 
 - Variables are usually all lowercase
 - If a Variables has multiple words then we separate those with underscore
 - variable names should be as descriptive as possible
 
-```
+``` python
 # "by convention our variables are usually all lowercase"
 
 message = "Hello World"
@@ -47,38 +43,30 @@ print(message)
 
 print(my_message)
 ```
+## Bad Practices
 
-### Bad practice
-
-Single Letter
+- Single Letter
 
 # String Quotes and Escaping
 ---
 
-
 # Multi-line Strings
 ---
-
 
 # String Length and Indexing
 ---
 
-
 # Slicing Strings
 ---
-
 
 # String Concatenation
 ---
 
-
 # String Formatting
 ---
 
-
 # Using F-strings
 ---
-
 
 # Buit-in Documentation
 ---
