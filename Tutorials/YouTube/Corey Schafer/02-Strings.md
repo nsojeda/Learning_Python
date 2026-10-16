@@ -98,6 +98,11 @@ print("""
 # Slicing Strings
 ---
 
+# Useful String Methods
+---
+
+# Replacing String Content
+---
 # String Concatenation
 ---
 

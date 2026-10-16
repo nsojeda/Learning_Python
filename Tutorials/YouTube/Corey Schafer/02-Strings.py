@@ -1,7 +1,14 @@
-###
-# Variable Naming Conventions
-###
- 
+'''
+Python Tutorial for Beginners 2: Strings - Working with Textual Data a video by Corey Schafer on YouTube.
+This is more of a scratchpad of snippets from the video.
+See 02-Strings.md for my notes.
+'''
+hr = "----------------------"
+
+print(hr)
+print('Variable Naming Conventions')
+print(hr)
+
 # "by convention our variables are usually all lowercase"
 
 message = "Hello World"
@@ -15,9 +22,11 @@ print(message)
 
 print(my_message)
 
-###
-# String Quotes and Escaping
-###
+
+print(hr)
+print('String Quotes and Escaping')
+print(hr)
+
 
 # print('Bobby's World!) SyntaxError: invalid syntax.
 print('Bobby\'s World!')
@@ -55,9 +64,9 @@ print("""
 3,
 """)
 
-###
-#String Length and Indexing
-###
+print(hr)
+print('String Length and Indexing')
+print(hr)
 
 print(len(message))
 print(message[0])
