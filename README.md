@@ -14,7 +14,7 @@ Documenting my path into Python, one notebook at a time. Notes, exercises, and a
 
 ## Current Folder Structure
 
-```
+``` sh
 my_path_to_python/
 ├── README.md
 ├── Python_Knowledge/
@@ -33,8 +33,8 @@ my_path_to_python/
             ├── 02 - Python Tutorial for Beginners 2 - Strings - Working with Textual Data.
             └── Python Tutorial for Beginners.ipynb
         └── Data with Baraa/
-	        ├── 03 - Python Comments - Visually Explained - Python Course 3.md (not Started)
-	        ├── 03 - Comments.py (Not Started)
+            ├── 03 - Python Comments - Visually Explained - Python Course 3.md (not Started)
+            ├── 03 - Comments.py (Not Started)
 ```
 
 ## How I Organize Things
