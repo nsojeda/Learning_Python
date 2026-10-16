@@ -17,19 +17,19 @@ The first thing to do is check if Python is installed
 
 Open a Terminal and run
 
-```
+``` sh
 python --version
 ```
 
 or
 
-```
+``` sh
 python -v
 ```
 
 If it comes back with python 2.##.##, try
 
-```
+``` sh
 python3 --version
 ```
 
@@ -37,7 +37,7 @@ python3 --version
 
 Open CMD and run
 
-```
+``` sh
 python --version
 ```
 
@@ -45,7 +45,7 @@ or
 
 Open PowerShell and run (not in video)
 
-```
+``` sh
 py -v
 ```
 
@@ -69,13 +69,13 @@ You can tell you're in the prompt by the >>>
 
 **Interactive Prompt** let you write 1 line of python at a time. (it's like run ad hoc commands )
 
-```
+``` python
 print('hello World')
 ```
 
 hello World
 
-```
+``` python
 x=10
 print(x)
 ```
@@ -86,9 +86,9 @@ The Interactive Prompt is good for testing python command
 you can tell you're in the prompt  
 
 Exit
-to exit the Interactive Prompt enter
+to exit the Interactive Prompt enter 
 
-```
+``` python
 exit()
 ```
 
@@ -102,12 +102,18 @@ Python Files are what you want, a space where we can write multiple lines and ru
 ---
 print () is function that can display a programs output on the screen.
 
-
+``` python
+print("Hello World!")
+```
 # # Comments
 ---
 Comments are lines of code that python interrupter ignored
 
 "it's only there for the developer and the programmer to actually see what's going"  
+
+``` python
+# print("Hello World!")
+```
 
 # Note to Self
 ---
