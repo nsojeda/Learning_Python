@@ -4,10 +4,14 @@ This is more of a scratchpad of snippets from the video.
 See 02-Strings.md for my notes.
 '''
 hr = "----------------------"
+print(' ')
 
 print(hr)
 print('Variable Naming Conventions')
 print(hr)
+
+
+print(' ')
 
 # "by convention our variables are usually all lowercase"
 
@@ -23,11 +27,15 @@ print(message)
 print(my_message)
 
 
+
+print(' ')
 print(hr)
 print('String Quotes and Escaping')
 print(hr)
 
 
+
+print(' ')
 # print('Bobby's World!) SyntaxError: invalid syntax.
 print('Bobby\'s World!')
 
@@ -39,6 +47,14 @@ print("Bobby's World!")
 # test  not in video but I wanted to see if I could do this and it worked.
 print("That's Nick's computer")
 print('Nick said, "Python is fun"')
+
+
+
+print(' ')
+print(hr)
+print('Multi-line Strings')
+print(hr)
+
 
 
 # we needed to create a multi-line string and one way we can do this is by using three quotes at the beginning and end of our string and These can also be Single(''') or double(""") quotes
@@ -64,11 +80,24 @@ print("""
 3,
 """)
 
+
+
+print(' ')
 print(hr)
 print('String Length and Indexing')
 print(hr)
 
+
+
+print(' ')
 print(len(message))
+# test  not in video but I wanted to see if I could do this and it worked.
+print(len("""Bobby's World 
+was a popular animated television show 
+that aired from 1990 to 1998. """))
+
+print(' ')
+
 print(message[0])
 print(message[10])
 # print(message[11]) IndexError: string index out of range
@@ -117,9 +146,12 @@ print(f_string_greeting)
 print(f"{greeting}, {name.upper()}. Welcome!")
 
 
+'''
 
 print(dir(name))
 
 print(help(str))
 
 print(help(str.lower))
+
+'''

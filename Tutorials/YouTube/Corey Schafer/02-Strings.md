@@ -45,6 +45,7 @@ print(pi)
 
 - Single Letter
 	  May be valid variable name, but if anyone reads the code now wouldn't know what value it's supposed to hold
+
 ```python
 m = "Hello World"
 
@@ -61,12 +62,14 @@ print("Hello World")
 ```
 
 You can alternate quotes depending on the text going in the string. 
+
 ```python
 print('He said, "Hello World"')
 print("Bobby's World!")
 ```
 
 Using the same quotes make will make the interrupter think the string is ends before it does. which will lead to a, SyntaxError: invalid syntax.
+
 ```python
 print('Bobby's World!)
 
@@ -84,6 +87,7 @@ print("He said, \"Hello World\"")
 ---
 By using three quotes you can print on multi-line 
 You can use Single( ''' ) or double( """ ) quotes
+
 ```python
 print("""
 1,
@@ -94,6 +98,40 @@ print("""
 
 # String Length and Indexing
 ---
+## Length
+You can use len( ) to find the length, the number of letter in a string or variable
+
+```python
+message = "Hello World"
+print(len(message))
+
+print(len("""Bobby's World
+was a popular animated television show
+that aired from 1990 to 1998. """))
+```
+
+## Indexing
+Every letter in string or variable is index with a number starting with 0. 
+
+We can print the letter by know it's index. 
+
+So with our message the letter of the first index (index 0) is H and our last letter (index10) is d
+
+```python
+message = "Hello World"
+
+print(message[0])
+
+print(message[10])
+
+```
+
+If we try to print an index that's not in the range of our message, we get an IndexError: string index out of range
+
+```python
+print(message[11])
+```
+
 
 # Slicing Strings
 ---
